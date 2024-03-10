@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>NppPlugin.DllExport</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>5</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+    <BaseOutputPath>..\..\Visual Studio Project Template C#\PluginInfrastructure\DllExport\</BaseOutputPath>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\..\Visual Studio Project Template C#\PluginInfrastructure\DllExport\Mono.Cecil.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
